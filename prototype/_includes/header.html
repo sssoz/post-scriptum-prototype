@@ -4,11 +4,14 @@
       <a href="{{ site.baseurl }}/" class="logo">Post-Scriptum</a>
     </div>
     <nav class="col-md-10 text-right">
-      <div class="menu">
+      <div class="menu hidden-sm hidden-xs">
         {% assign pages = site.pages | sort:"order"  %}
         {% for page in pages %}
         <a href="{{ page.url | prepend: site.baseurl }}" class="menu-option">{{ page.title }}</a>
         {% endfor %}
+      </div>
+      <div class="hidden-md hidden-lg hidden-xl">
+        <a href="">Menu</a>
       </div>
     </nav>
   </div>

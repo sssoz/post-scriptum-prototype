@@ -1,6 +1,7 @@
 ---
 layout: issue
-title:  "Hygiènes de la création"
+title:  "Colloque annuel de la revue Post-Scriptum"
+subtitle: "Appel à communication"
 number: "18"
 date:   2015-12-12
 ---
