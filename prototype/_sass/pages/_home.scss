@@ -1,3 +1,40 @@
 // -----------------------------------------------------------------------------
 // This file contains styles that are specific to the home page.
 // -----------------------------------------------------------------------------
+#home {
+  section.container-fluid {
+    margin: 3em auto;
+    padding: 0 20px;
+  }
+  .jumbotron {
+    background-image: url('../img/cov-18.jpg');
+    height: 100vh;
+    background-size: cover;
+    padding-bottom: 0;
+    margin: 0;
+    margin-top: -$header-height;
+    > .container {
+      margin: auto;
+      position: absolute;
+      top: 30%;
+    }
+    h1 {
+      margin: 0.25em 0;
+      a {
+        font-family: $serif-bold;
+        font-size: 10vh;
+        color: #FFF;
+      }
+    }
+    .meta {
+      color: #FFF;
+      font-size: 3vh;
+    }
+  }
+  .tagline {
+    background: $light-grey;
+    padding: 1.15em 0;
+    text-align: center;
+    color: $dark-grey;
+  }
+}

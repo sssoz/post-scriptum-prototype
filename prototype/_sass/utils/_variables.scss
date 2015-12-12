@@ -23,7 +23,8 @@ $sans-bold-italic: 'Maison Neue Bold Italic', 'Helvetica Neue Bold Italic', 'Hel
 $code: 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Monaco', monospace !default;
 
 
-
+/// Sizes
+$font-base-size: 24px;
 
 
 /// Copy text color
@@ -47,7 +48,7 @@ $mid-grey: #999 !default;
 $dark-grey: #444 !default;
 
 
-
+$header-height: 100px;
 
 
 /// Container's maximum width
