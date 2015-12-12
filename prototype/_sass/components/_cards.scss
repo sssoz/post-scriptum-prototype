@@ -1,0 +1,19 @@
+.cards {
+  .card {
+    font-size: 0.85em;
+  }
+  .card-issues {
+    height: 550px;
+    .img-container {
+      height: 250px;
+      position: relative;
+      overflow: hidden;
+      img {
+        position: absolute;
+        display: block;
+        top: 0;
+        left: 0;
+      }
+    }
+  }
+}

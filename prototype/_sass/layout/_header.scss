@@ -9,16 +9,22 @@ header.page-header {
   line-height: $header-height;
   .logo {
     font-size: 1em;
-    color: #FFF;
   }
   nav {
     font-family: $sans;
     .menu {
       .menu-option {
         margin-left: 1.5em;
-        color: #FFF;
         font-size: 0.85em;
       }
     }
+  }
+  // dark text for light bg
+  &.light a {
+    color: $text-color;
+  }
+  // light text for dark bg
+  &.dark a {
+    color: #FFF;
   }
 }
