@@ -1,8 +1,9 @@
 ---
 layout: issue
 title:  "Hygiènes de la création"
+author: "Clara Dupuis-Morency"
 number: "18"
-date:   2015-12-12
+date:   2015-10-08
 ---
 Pour certains d’entre nous, penser à l’université relève d’une certaine pathologie. Sadisme, masochisme, schizophrénie, psychoses diverses qui vont parfois jusqu’à la narratologie ou, cela peut arriver aux meilleurs, d’inexplicables et pénibles épisodes de schématisme.
 
@@ -16,5 +17,4 @@ Puis, quelques hommes inquiétés sont conviés. Car un mystère reste entier : 
 
 Nous remercions la revue Post-Scriptum.org et sa vaillante équipe d’accueillir ces textes aux différents degrés d’hygiène. Car si nous sommes encore à l’Université, c’est que nous ne pouvons renoncer à une certaine hygiène de la pensée, à ses rituels de purification, à son refus de la décomposition, de la jouissance inféconde, de l’attente improductive et de l’intoxication fatale. Mais que leurs voix impures fassent entendre un murmure de corps, d’insoluble matière, et surtout de SALE PLAISIR !!!
 
-Merci spécialement aux auteurs pour leur don,
-à Marie-Eve Bradette, pour son travail acharné et ses conseils, et à Mathieu Bédard pour la mise en ligne, à Adam Westra pour les traductions et révisions de l’anglais, et à Vincenzo Bruno pour la photographie inquiétante.
+Merci spécialement aux auteurs pour leur don, à Marie-Eve Bradette, pour son travail acharné et ses conseils, et à Mathieu Bédard pour la mise en ligne, à Adam Westra pour les traductions et révisions de l’anglais, et à Vincenzo Bruno pour la photographie inquiétante.

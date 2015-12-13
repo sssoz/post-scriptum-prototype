@@ -22,6 +22,7 @@ menu: true
             </div>
             <p class="meta meta-short_preview">{{ news_item.content | strip_html | truncatewords:15 }}</p>
             <div class="meta meta-date">{{ news_item.date | date: "%D" }}</div>
+            <hr/>
           </div>
         </article>
         {% endfor %}
