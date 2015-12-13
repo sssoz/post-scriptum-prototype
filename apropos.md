@@ -22,36 +22,36 @@ Post-Scriptum.ORG est une revue littéraire numérique qui publie, sur une base 
 ---
 
 ## L'équipe
-Rédacteur en chef entrant :
-Marie-Eve Bradette (doctorante en littérature comparée, Université de Montréal)
+**Rédacteur en chef entrant**  
+Marie-Eve Bradette (doctorante en littérature comparée, Université de Montréal)  
 
-Rédacteur en chef sortant :
+**Rédacteur en chef sortant**  
 Gabriel Tétrault
 
-Responsable du comité de révision :
-Laurence Sylvain (doctorante en littérature comparée, Université de Montréal)
+**Responsable du comité de révision**  
+Laurence Sylvain (doctorante en littérature comparée, Université de Montréal)  
 
-Membres du comité de révision
-Marie Lévesque (doctorante en littérature comparée, Université de Montréal)
+**Membres du comité de révision**   
+Marie Lévesque (doctorante en littérature comparée, Université de Montréal)  
 
-Responsable du comité scientifique :
-Claudia Polledri (Ph.D, Université de Montréal)
+**Responsable du comité scientifique**  
+Claudia Polledri (Ph.D, Université de Montréal)  
 
-Responsable des comptes-rendus :
-Louis-Thomas Leguerrier (doctorant en littérature comparée, Université de Montréal)
+**Responsable des compte rendus**  
+Louis-Thomas Leguerrier (doctorant en littérature comparée, Université de Montréal)  
 
-Responsable des entretiens :
-Hanen Allouch (doctorante en littérature comparée, Université de Montréal)
+**Responsable des entretiens**  
+Hanen Allouch (doctorante en littérature comparée, Université de Montréal)  
 
-Comité administratif :
-Terry Cochran (Université de Montréal)
-Simon Harel (Université de Montréal)
-Tania Saba (Université de Montréal)
+**Comité administratif**  
+Terry Cochran (Université de Montréal)  
+Simon Harel (Université de Montréal)  
+Tania Saba (Université de Montréal)  
 
-Comité scientifique :
-Martine Delvaux (Université du Québec à Montréal)
-Julie Lavigne (Université du Québec à Montréal)
-Catherine Mavrikakis (Université de Montréal)
-Livia Monnet (Université de Montréal)
-Joubert Satyre (Université Guelph)
-Marcello Vitali-Rosati (Université de Montréal)
+**Comité scientifique**  
+Martine Delvaux (Université du Québec à Montréal)  
+Julie Lavigne (Université du Québec à Montréal)  
+Catherine Mavrikakis (Université de Montréal)  
+Livia Monnet (Université de Montréal)  
+Joubert Satyre (Université Guelph)  
+Marcello Vitali-Rosati (Université de Montréal)  
