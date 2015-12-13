@@ -3,7 +3,7 @@ layout: issue
 title:  "Invitation au colloque Montréal Comparatiste 29-30 avril 2015"
 subtitle: "Colloques"
 number: "16"
-date:   2015-10-08
+date:   2015-09-08
 ---
 Les idées ne trônent pas au-dessus de nos têtes, pas plus qu’elles n’habitent dans nos têtes ; elles marchent au milieu de nous et s’approchent de nous ; malheureux celui qui néglige de leur adresser le mot fondamental, mais misérable celui qui pour leur parler use d’un concept ou d’une formule, comme si c’était leur nom. (Martin Buber, Je et Tu)
 

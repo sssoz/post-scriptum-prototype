@@ -3,6 +3,7 @@ layout: apropos
 title: À propos
 permalink: /a-propos/
 order: 5
+menu: true
 ---
 
 ## Orientation intellectuelle

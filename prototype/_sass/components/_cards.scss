@@ -17,8 +17,6 @@
     height: 550px;
     .img-container {
       height: 250px;
-      position: relative;
-      overflow: hidden;
       img {
         position: absolute;
         display: block;
@@ -26,5 +24,8 @@
         left: 0;
       }
     }
+  }
+  .card-report {
+    height: 400px;
   }
 }

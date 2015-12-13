@@ -7,7 +7,9 @@
       <div class="menu hidden-sm hidden-xs">
         {% assign pages = site.pages | sort:"order"  %}
         {% for page in pages %}
+        {% if page.menu == true %}
         <a href="{{ page.url | prepend: site.baseurl }}" class="menu-option">{{ page.title }}</a>
+        {% endif %}
         {% endfor %}
       </div>
       <div class="hidden-md hidden-lg hidden-xl">
