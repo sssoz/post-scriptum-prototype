@@ -18,7 +18,7 @@ layout: default
 
   <!-- Actualités récentes -->
   <section class="container-fluid">
-    <h2><a href="{{ 'actualites' | prepend: site.baseurl }}" class="menu-option">Actualités</a></h2>
+    <h2><a href="{{ '/actualites' | prepend: site.baseurl }}" class="menu-option">Actualités</a></h2>
     <div class="row cards">
       {% for news in site.categories.actualites limit:3 %}
       <div class="card card-news-main col-md-4 col-ms-6">
@@ -38,7 +38,7 @@ layout: default
 
   <!-- Avant-dernière parution -->
   <section class="container-fluid">
-    <h2><a href="{{ 'parutions' | prepend: site.baseurl }}" class="menu-option">Parutions</a></h2>
+    <h2><a href="{{ '/parutions' | prepend: site.baseurl }}" class="menu-option">Parutions</a></h2>
     <div class="row">
       {% for issue in site.categories.parutions offset:1 limit:1 %}
       <div class="col-md-6">
