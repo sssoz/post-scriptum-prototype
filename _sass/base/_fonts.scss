@@ -1,0 +1,87 @@
+// -----------------------------------------------------------------------------
+// This file contains all @font-face declarations, if any.
+// -----------------------------------------------------------------------------
+
+/* Sans */
+
+@font-face {
+	font-family: 'Maison Neue Book Italic';
+	src: url('../fonts/MaisonNeue-BookItalic.eot');
+	src: url('../fonts/MaisonNeue-BookItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/MaisonNeue-BookItalic.woff') format('woff'),
+		url('../fonts/MaisonNeue-BookItalic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Maison Neue Bold Italic';
+	src: url('../fonts/MaisonNeue-BoldItalic.eot');
+	src: url('../fonts/MaisonNeue-BoldItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/MaisonNeue-BoldItalic.woff') format('woff'),
+		url('../fonts/MaisonNeue-BoldItalic.ttf') format('truetype');
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Maison Neue Book';
+	src: url('../fonts/MaisonNeue-Book.eot');
+	src: url('../fonts/MaisonNeue-Book.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/MaisonNeue-Book.woff') format('woff'),
+		url('../fonts/MaisonNeue-Book.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Maison Neue Bold';
+	src: url('../fonts/MaisonNeue-Bold.eot');
+	src: url('../fonts/MaisonNeue-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/MaisonNeue-Bold.woff') format('woff'),
+		url('../fonts/MaisonNeue-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+/* Serif */
+
+@font-face {
+	font-family: 'Portrait Bold';
+	src: url('../fonts/Portrait-Bold.eot');
+	src: url('../fonts/Portrait-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Portrait-Bold.woff') format('woff'),
+		url('../fonts/Portrait-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Portrait Regular Italic';
+	src: url('../fonts/PortraitText-RegularItalic.eot');
+	src: url('../fonts/PortraitText-RegularItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/PortraitText-RegularItalic.woff') format('woff'),
+		url('../fonts/PortraitText-RegularItalic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Portrait Regular';
+	src: url('../fonts/PortraitText-Regular.eot');
+	src: url('../fonts/PortraitText-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/PortraitText-Regular.woff') format('woff'),
+		url('../fonts/PortraitText-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Portrait Bold Italic';
+	src: url('../fonts/Portrait-BoldItalic.eot');
+	src: url('../fonts/Portrait-BoldItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Portrait-BoldItalic.woff') format('woff'),
+		url('../fonts/Portrait-BoldItalic.ttf') format('truetype');
+	font-weight: bold;
+	font-style: italic;
+}
