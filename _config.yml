@@ -10,7 +10,7 @@ title: Post-Scriptum
 email: redaction@post-scriptum.org
 description: "Revue de recherche interdisciplinaire en texte et médias"
 credit: "Une initiative des étudiants du département de littérature comparée de l'Université de Montréal"
-baseurl: "http://sophyo.github.io/post-scriptum" # the subpath of your site, e.g. /blog
+baseurl: "/post-scriptum" # the subpath of your site, e.g. /blog
 url: "http://www.post-scriptum.org" # the base hostname & protocol for your site
 
 # Build settings
