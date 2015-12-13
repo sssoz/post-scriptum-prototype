@@ -6,10 +6,14 @@ layout: default
   {% for issue in site.categories.parutions limit:1 %}
   <section>
     <div class="jumbotron text-center cov-{{ issue.number }}">
-      <div class="container">
-        <div class="meta">Parution <span class="meta-number">n° {{ issue.number }}</span></div>
-        <h1><a href="{{ issue.url | prepend: site.baseurl }}">{{ issue.title }}</a></h1>
-        <div class="meta meta-date">{{ issue.date | date: "%B %Y" }}</div>
+      <div class="jumbo-overlay">
+        <div class="container jumbo-container">
+          <div class="jumbo-latest">
+            <div class="meta">Parution <span class="meta-number">n° {{ issue.number }}</span></div>
+            <h1><a href="{{ issue.url | prepend: site.baseurl }}">{{ issue.title }}</a></h1>
+            <div class="meta meta-date">{{ issue.date | date: "%B %Y" }}</div>
+          </div>
+        </div>
       </div>
     </div>
     <div class="tagline">{{ site.description }}</div>
