@@ -7,9 +7,6 @@ Liste des compte rendus
 
 # Multiple pages
 Articles
-  Entretiens
-  Compte rendus
-  [Réguliers]
 Nouvelles
 Parutions
 
@@ -37,7 +34,8 @@ Accueil
       |                                    `-- Un supplément à une parution
       |                                                                   |
       |                                                                   `-- Un article
-      |
+      |                                                                                |
+      |                                                                                 `-- ...
       |-- Liste des entretiens
       |                      |
       |                      `-- [Un entretien]
@@ -74,8 +72,10 @@ Article
       Titre de la bibliographie
     Références
     Notice biographique
+    Fichiers attachés
 
 Nouvelle
   Titre
   Sous-titre
-  Contenu de la nouvelle  ==
+  Contenu de la nouvelle
+  Fichiers attachés

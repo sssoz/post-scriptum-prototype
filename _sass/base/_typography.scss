@@ -34,6 +34,16 @@ small {
 
 em {
   font-family: $serif-italic;
+  b, strong {
+    font-family: $serif-bold-italic;
+  }
+}
+
+b, strong {
+  font-family: $serif-bold;
+  em {
+    font-family: $serif-bold-italic;
+  }
 }
 
 /**

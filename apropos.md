@@ -22,33 +22,33 @@ Post-Scriptum.ORG est une revue littéraire numérique qui publie, sur une base 
 ---
 
 ## L'équipe
-**Rédacteur en chef entrant**  
+_**Rédacteur en chef entrant**_  
 Marie-Eve Bradette (doctorante en littérature comparée, Université de Montréal)  
 
-**Rédacteur en chef sortant**  
+_**Rédacteur en chef sortant**_  
 Gabriel Tétrault
 
-**Responsable du comité de révision**  
+_**Responsable du comité de révision**_  
 Laurence Sylvain (doctorante en littérature comparée, Université de Montréal)  
 
-**Membres du comité de révision**   
+_**Membres du comité de révision**_   
 Marie Lévesque (doctorante en littérature comparée, Université de Montréal)  
 
-**Responsable du comité scientifique**  
+_**Responsable du comité scientifique**_  
 Claudia Polledri (Ph.D, Université de Montréal)  
 
-**Responsable des compte rendus**  
+_**Responsable des compte rendus**_  
 Louis-Thomas Leguerrier (doctorant en littérature comparée, Université de Montréal)  
 
-**Responsable des entretiens**  
+_**Responsable des entretiens**_  
 Hanen Allouch (doctorante en littérature comparée, Université de Montréal)  
 
-**Comité administratif**  
+_**Comité administratif**_  
 Terry Cochran (Université de Montréal)  
 Simon Harel (Université de Montréal)  
 Tania Saba (Université de Montréal)  
 
-**Comité scientifique**  
+_**Comité scientifique**_  
 Martine Delvaux (Université du Québec à Montréal)  
 Julie Lavigne (Université du Québec à Montréal)  
 Catherine Mavrikakis (Université de Montréal)  
