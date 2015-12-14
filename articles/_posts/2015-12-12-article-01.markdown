@@ -1,13 +1,13 @@
 ---
 layout: article
 issue: "18.1"
-title: "L’écrain autophage"
-subtitle: 
+title: "L’écrivain autophage"
+subtitle:
 author: "Simon Harel"
 affiliation: "Université de Montréal"
 categories: article
-date: 2015-12-20
-order: 7
+date: 2015-12-12
+order: 1
 ---
 Il n’est pas habituel de parler de l’hygiène de la création. À vrai dire, cette expression choque. Elle se situe aux antipodes de l’idée d’une création touffue, par définition excessive. Nous avons pour usage de décrire la démesure de la création, comme si cette dernière, dans son expression spontanée, ne pouvait faire l’objet d’un rituel qui met en relief la nécessité d’un toilettage, une forme de purification voire d’ascétisme, en témoigne, par exemple, l’œuvre d’Antonin Artaud.
 
