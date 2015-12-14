@@ -59,7 +59,8 @@ Parution
 Article
   Catégories : [none], compte rendu, entretien
   Titre
-  Sous-titre
+  Sous-titres
+    Déterminer le nombre de niveaux (max 3?)
   Auteur
   Affiliation
   Contenu de l'article

@@ -25,9 +25,12 @@
     }
     h1 {
       margin: 0.25em 0;
+      font-size: 10vh;
+      font-family: $serif-bold;
+      color: #FFF;
       a {
-        font-family: $serif-bold;
         font-size: 10vh;
+        font-family: $serif-bold;
         color: #FFF;
       }
     }

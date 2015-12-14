@@ -4,6 +4,8 @@
 header.page-header {
   margin: 0;
   border: 0;
+  position: relative;
+  z-index: 2;
   background-color: transparent;
   height: $header-height;
   line-height: $header-height;

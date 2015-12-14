@@ -4,7 +4,7 @@ title:  "Supplément aux Hygiènes de la création"
 number: "18.1"
 author:
 date:   2015-12-12
-categories: supplement
+type: supplement
 credit: "Vincenzo Bruno"
 credit_url: https://www.vincenzobruno.com
 ---
