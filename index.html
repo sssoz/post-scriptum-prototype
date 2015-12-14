@@ -4,8 +4,8 @@ layout: default
 <main id="home">
   <!-- Dernière parution -->
   {% for issue in site.categories.parutions limit:1 %}
-  <section>
-    <div class="jumbotron text-center cov-{{ issue.number }}">
+  <section class="cover">
+    <div class="jumbotron text-center" style="background-image: url('{{ site.baseurl }}/img/cov-{{ issue.number }}.jpg')">
       <div class="jumbo-overlay">
         <div class="container jumbo-container">
           <div class="jumbo-latest">

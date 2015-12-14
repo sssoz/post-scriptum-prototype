@@ -2,9 +2,11 @@
 layout: issue
 title:  "Supplément aux Hygiènes de la création"
 number: "18.1"
-author: ""
+author: 
 date:   2015-12-12
 categories: supplement
+credit: "Vincenzo Bruno"
+credit_url: https://www.vincenzobruno.com
 ---
 Pour poursuivre la réflexion sur les hygiènes de la création, proposée dans le numéro 18, sous la direction de Clara Dupuis-Morency, nous vous présentons en guise de supplément un article inédit de Simon Harel, traitant des modalités de l’écriture hygiénique chez Antonin Artaud et Knut Hamsun – écriture hygiénique dans la mesure où les deux œuvres font état d’une volonté d’épuration de la forme, correspondant à une autophagie.
 

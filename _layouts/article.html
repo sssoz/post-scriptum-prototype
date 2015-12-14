@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<main id="article" class="container-fluid">
+  <section class="row">
+    <h1></h1>
+    <hr/>
+    <aside class="col-md-3">
+      <img src="{{ site.baseurl }}/img/cov-{{ page.issue }}.jpg" class="img-responsive"/>
+      <a href="">Retour à la parution</a>
+    </aside>
+    <article class="col-md-6 single-col">
+      <header>
+        <h2>{{ page.title }}</h2>
+        <h3 class="meta">{{ page.subtitle }}</h3>
+      </header>
+      {{ content }}
+    </article>
+  </section>
+</main>

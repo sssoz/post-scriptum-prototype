@@ -5,7 +5,7 @@ body {
   color: $text-color;
   font-family: $serif;
   font-size: $font-base-size;
-  line-height: 1.5;
+  line-height: 1.55;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -76,18 +76,23 @@ p {
 }
 
 blockquote {
-  font-family: $sans;
+  font-family: $sans-italic;
+  font-size: 0.75em;
+  line-height: 1.75;
+  color: $dark-grey;
+  margin: 1em 0 2em 1.5em;
+  border-left: 1px solid $mid-grey;
   em {
-    font-family: $sans-italic;
+    font-family: $sans;
     b, strong {
-      font-family: $sans-bold-italic;
+      font-family: $sans-bold;
     }
   }
 
   b, strong {
     font-family: $sans-bold;
     em {
-      font-family: $sans-bold-italic;
+      font-family: $sans-bold;
     }
   }
 }

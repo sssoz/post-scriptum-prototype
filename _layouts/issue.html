@@ -1,16 +1,29 @@
 ---
 layout: default
 ---
-<main id="issues" class="container-fluid">
+<main id="issues" class="row">
+  <section class="cover">
+    <div class="jumbotron text-center" style="background-image: url('{{ site.baseurl }}/img/cov-{{ page.number }}.jpg')">
+      <div class="jumbo-overlay">
+        <div class="container jumbo-container">
+          <div class="jumbo-latest">
+            <div class="meta">Parution <span class="meta-number">n° {{ page.number }}</span></div>
+            <h1><a href="">{{ page.title }}</a></h1>
+            <div class="meta meta-date">{{ page.date | date: "%B %Y" }}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   <section>
-    <h1>{{ page.title }}</h1>
-    <hr/>
     <article class="col-md-6 col-md-offset-3 single-col">
-      <h2>Présentation du dossier par {{ page.author }}</h2>
+      <h2>Présentation du dossier{% if page.author %} par {{ page.author }}{% endif %}</h2>
       {{ content }}
+      {% if page.credit %}
       <p>
         <small>Crédit photographique&nbsp;: <a href="{{ page.credit_url }}" target="_blank">{{ page.credit }}</a></small>
       </p>
+      {% endif %}
     </article>
     <nav class="col-md-6 col-md-offset-3 single-col">
       <h2>Sommaire</h2>
