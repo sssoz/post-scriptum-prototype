@@ -1,0 +1,11 @@
+---
+layout: article
+issue: "18"
+title: "Prolégomènes pour une masturbation de la pénétration"
+subtitle: "De Cixous et Irigaray à Acker : tracer la fin d’une politique identitaire de la femme"
+author: "Eftihia Mihelakis"
+affiliation: "Université de Montréal"
+categories: article
+date: 2015-12-01
+order: 5
+---

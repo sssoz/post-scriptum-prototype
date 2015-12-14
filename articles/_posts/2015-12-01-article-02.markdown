@@ -1,0 +1,11 @@
+---
+layout: article
+issue: "18"
+title: "Je n’attends plus personne."
+subtitle: "Sur quelques lieux stratégiques d’écriture"
+author: "Catherine Lemieux"
+affiliation: "Université de Montréal"
+categories: article
+date: 2015-12-01
+order: 2
+---

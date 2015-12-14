@@ -61,8 +61,9 @@ Article
   Titre
   Sous-titre
   Auteur
-  Résumé
+  Affiliation
   Contenu de l'article
+    Résumé
     Titres
     Corps du texte
     Citations

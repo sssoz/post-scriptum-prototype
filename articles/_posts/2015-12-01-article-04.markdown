@@ -1,0 +1,11 @@
+---
+layout: article
+issue: "18"
+title: "N.d.d. / Le retour du sang"
+subtitle: "Un texte hygiénique"
+author: "Clara Dupuis-Morency"
+affiliation: "Université de Montréal"
+categories: article
+date: 2015-12-01
+order: 4
+---

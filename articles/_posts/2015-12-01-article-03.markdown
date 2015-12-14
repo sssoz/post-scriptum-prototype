@@ -1,0 +1,11 @@
+---
+layout: article
+issue: "18"
+title: "Ingestion et digestion"
+subtitle: "Toxicités de la création"
+author: "Catherine Mavrikakis"
+affiliation: "Université de Montréal"
+categories: article
+date: 2015-12-01
+order: 3
+---

@@ -1,0 +1,30 @@
+.toc {
+  .toc-item {
+    margin: 1em 0;
+    padding: 0.5em 0;
+    border-bottom: 1px solid $light-grey;
+    &:last-child {
+      border: 0;
+    }
+    .article-title_group {
+      display: block;
+      margin: 1.25em 0;
+      line-height: 1.25;
+    }
+    .article-title {
+      font-size: 1.25em;
+    }
+    .article-subtitle {
+      font-size: 1em;
+    }
+    .meta {
+      font-size: 0.75em;
+      line-height: 1;
+    }
+    .meta-author {
+      font-family: $sans-bold;
+    }
+    .meta-affiliation {
+    }
+  }
+}

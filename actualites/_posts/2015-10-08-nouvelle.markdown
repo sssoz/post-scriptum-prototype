@@ -1,5 +1,5 @@
 ---
-layout: issue
+layout: newsitem
 title:  "Dédoublements littéraires (#20, hiver 2016)"
 subtitle: "Appel à contributions"
 number: "17"

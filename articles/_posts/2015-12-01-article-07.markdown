@@ -1,0 +1,11 @@
+---
+layout: article
+issue: "18"
+title: "L’enregistrement et ses récifs : récifs de la mise en image chez Adorno et Gould"
+subtitle: ""
+author: "Martin Tailly"
+affiliation: "Université de Montréal"
+categories: article
+date: 2015-12-01
+order: 7
+---

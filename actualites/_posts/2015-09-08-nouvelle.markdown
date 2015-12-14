@@ -1,5 +1,5 @@
 ---
-layout: issue
+layout: newsitem
 title:  "Invitation au colloque Montréal Comparatiste 29-30 avril 2015"
 subtitle: "Colloques"
 number: "16"

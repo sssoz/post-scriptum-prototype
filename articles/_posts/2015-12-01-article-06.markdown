@@ -1,0 +1,11 @@
+---
+layout: article
+issue: "18"
+title: "La mélancolie des retombées – 3"
+subtitle: "Sur l’hygiène de la création"
+author: "Jean-Michel Théroux"
+affiliation: "Université de Montréal"
+categories: article
+date: 2015-12-01
+order: 6
+---

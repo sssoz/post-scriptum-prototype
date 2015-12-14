@@ -4,6 +4,8 @@ title:  "Hygiènes de la création"
 author: "Clara Dupuis-Morency"
 number: "18"
 date:   2015-10-08
+credit: "Vincenzo Bruno"
+credit_url: https://www.vincenzobruno.com
 ---
 Pour certains d’entre nous, penser à l’université relève d’une certaine pathologie. Sadisme, masochisme, schizophrénie, psychoses diverses qui vont parfois jusqu’à la narratologie ou, cela peut arriver aux meilleurs, d’inexplicables et pénibles épisodes de schématisme.
 
