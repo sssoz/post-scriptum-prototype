@@ -35,20 +35,21 @@ $text-color: #222 !default;
 /// @type Color
 $brand-color: #CAB6AF !default;
 
+/// Faint grey
+/// @type Color
+$faint-grey: #F5F5F5 !default;
+
 /// Light grey
 /// @type Color
-$light-grey: #EDEDED !default;
+$light-grey: #E0E0E0 !default;
 
 /// Medium grey
 /// @type Color
-$mid-grey: #999 !default;
+$mid-grey: #B2B2B2 !default;
 
 /// Dark grey
 /// @type Color
-$dark-grey: #444 !default;
-
-
-$header-height: 100px !default;
+$dark-grey: #595959 !default;
 
 
 /// Container's maximum width
@@ -56,6 +57,7 @@ $header-height: 100px !default;
 /// @type Length
 $max-width: 1200px !default;
 
+$header-height: 100px !default;
 
 
 

@@ -1,22 +1,21 @@
 ---
 layout: default
 ---
-<main id="article" class="container-fluid">
-  <section class="row">
-    <h1>Article</h1>
-    <hr/>
+<section class="row">
+  <article>
+    <header>
+      <h1>{{ page.title }}</h1>
+      {% if page.subtitle %}<h2 class="meta">{{ page.subtitle }}</h2>{% endif %}
+      <hr/>
+    </header>
     <aside class="col-md-3">
       <img src="{{ site.baseurl }}/img/cov-{{ page.issue }}.jpg" class="img-responsive"/>
       <a href="{{ }}">Retour à la parution</a>
       <nav id="article-toc">
       </nav>
     </aside>
-    <article class="col-md-6 single-col">
-      <header>
-        <h2>{{ page.title }}</h2>
-        {% if page.subtitle %}<h3 class="meta">{{ page.subtitle }}</h3>{% endif %}
-      </header>
+    <div class="col-md-6 ">
       {{ content }}
-    </article>
-  </section>
-</main>
+    </div>
+  </article>
+</section>

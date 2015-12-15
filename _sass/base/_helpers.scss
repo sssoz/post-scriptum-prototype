@@ -58,7 +58,18 @@
   width: 100%;
 }
 
+.img-banner-overlay {
+  width: 100%;
+  padding: 0.25em;
+  background-color: rgba(255, 255, 255, 0.55);
+  position: absolute;
+  top: 10px;
+  font-family: $sans;
+  font-size: 1em;
+  color: $dark-grey;
+}
+
 /* Single-column usually reserved for doc units */
 .single-col {
-  padding: 0 3em;
+  // padding: 0 3em;
 }

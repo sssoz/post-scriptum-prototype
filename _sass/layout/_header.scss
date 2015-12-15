@@ -21,12 +21,17 @@ header.page-header {
       }
     }
   }
-  // dark text for light bg
-  &.light a {
-    color: $text-color;
+  a {
+    color: #000;
   }
-  // light text for dark bg
-  &.dark a {
-    color: #FFF;
+}
+
+// display header and menu in black for pages without a cover
+#home,
+#issue {
+  header.page-header {
+    a {
+      color: #FFF;
+    }
   }
 }

@@ -4,27 +4,27 @@ title: Actualités
 date: 2015-10-08
 order: 4
 menu: true
+body-id: all-news
 ---
-<main id="actualites" class="container-fluid">
-  <h1><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></h1>
-  <hr/>
-    <section>
-      <div class="cards">
-        {% for news_item in site.categories.actualites %}
-        <article class="row">
-          <div class="col-sm-6 col-sm-offset-3">
-            <h3><a href="{{ news_item.url | prepend: site.baseurl }}">{{ news_item.title }}</a></h3>
-            <h4 class="meta"><a href="{{ news_item.url | prepend: site.baseurl }}">{{ news_item.subtitle }}</a></h4>
-            <div class="meta meta-date">{{ news_item.date | date: "%D" }}</div>
-            <div class="img-container">
-              <a href="{{ news_item.url | prepend: site.baseurl }}">
-                <img src="{{ site.baseurl }}/img/nouv-{{ news_item.number }}.jpg" class="img-responsive"/>
-              </a>
-            </div>
-            <hr/>
-          </div>
-        </article>
-        {% endfor %}
+
+<h1><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></h1>
+<hr/>
+<section class="container">
+  <div class="cards">
+    {% for news_item in site.categories.actualites %}
+    <article class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-6 col-md-offset-3">
+        <h3><a href="{{ news_item.url | prepend: site.baseurl }}">{{ news_item.title }}</a></h3>
+        <h4 class="meta"><a href="{{ news_item.url | prepend: site.baseurl }}">{{ news_item.subtitle }}</a></h4>
+        <div class="meta meta-date">{{ news_item.date | date: "%D" }}</div>
+        <div class="img-container">
+          <a href="{{ news_item.url | prepend: site.baseurl }}">
+            <img src="{{ site.baseurl }}/img/nouv-{{ news_item.number }}.jpg" class="img-responsive"/>
+          </a>
+        </div>
+        <hr/>
       </div>
-    </section>
-  </main>
+    </article>
+    {% endfor %}
+  </div>
+</section>

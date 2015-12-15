@@ -1,5 +1,6 @@
 ---
 layout: default
+body-id: home
 ---
 <main id="home">
   <!-- Dernière parution -->
@@ -20,7 +21,7 @@ layout: default
   </section>
   {% endfor %}
   <!-- Actualités récentes -->
-  <section class="container-fluid">
+  <section class="container">
     <h2><a href="{{ '/actualites' | prepend: site.baseurl }}" class="menu-option">Actualités</a></h2>
     <div class="row cards">
       {% for news in site.categories.actualites limit:3 %}
@@ -35,9 +36,9 @@ layout: default
       </article>
       {% endfor %}
     </div>
+    <hr/>
   </section>
-  <hr/>
-  <section class="container-fluid">
+  <section class="container">
     <h2><a href="{{ '/parutions' | prepend: site.baseurl }}" class="menu-option">Parutions</a></h2>
     <!-- Avant-dernière parution -->
     <div class="row">

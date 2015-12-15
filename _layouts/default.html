@@ -1,9 +1,14 @@
+---
+layout: default
+---
 <!DOCTYPE html>
 <html lang="fr">
   {% include head.html %}
-  <body>
+  <body id="{% if page.body-id %}{{ page.body-id }}{% else %}{{ page.layout }}{% endif %}">
     {% include header.html %}
-    {{ content }}
+    <main id="main" class="container-fluid">
+      {{ content }}
+    </main>
     {% include footer.html %}
   </body>
 </html>

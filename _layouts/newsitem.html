@@ -1,16 +1,14 @@
 ---
 layout: default
 ---
-<main id="news" class="container-fluid">
-  <section>
-    <h1><a href="{{ '/actualites' | prepend: site.baseurl }}">Actualités</a></h1>
-    <hr/>
-    <article class="col-md-6 col-md-offset-3 single-col">
-      <header>
-        <h2>{{ page.title }}</h2>
-        <h3 class="meta">{{ page.subtitle }}</h3>
-      </header>
-      {{ content }}
-    </article>
-  </section>
-</main>
+<section>
+  <h1><a href="{{ '/actualites' | prepend: site.baseurl }}">Actualités</a></h1>
+  <hr/>
+  <article class="col-md-6 col-md-offset-3 single-col">
+    <header>
+      <h2>{{ page.title }}</h2>
+      <h3 class="meta">{{ page.subtitle }}</h3>
+    </header>
+    {{ content }}
+  </article>
+</section>

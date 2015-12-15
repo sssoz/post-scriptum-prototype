@@ -26,14 +26,22 @@
         </p>
       </div>
     </div>
+    <div class="row">
+      <div class="col-xs-12 text-center">
+        <a href="#header">Retourner en haut</a>
+      </div>
+    </div>
   </div>
 </footer>
 <script src="{{ '/js/jquery-1.11.3.min.js' | prepend: site.baseurl }}"></script>
 <script src="{{ '/js/jquery.colourbrightness.min.js' | prepend: site.baseurl }}"></script>
-<script src="{{ '/js/toc.min.js' | prepend: site.baseurl }}"></script>
+<script src="{{ '/js/jquery.toc.min.js' | prepend: site.baseurl }}"></script>
+<script src="{{ '/js/jquery.smoothState.js' | prepend: site.baseurl }}"></script>
+<script src="{{ '/js/main.js' | prepend: site.baseurl }}"></script>
 <script>
   $(document).ready(function(){
     $('.page-header').colourBrightness();
     $('#article-toc').toc();
+    $('#cover').smoothState();
   });
 </script>

@@ -4,6 +4,7 @@ title: À propos
 permalink: /a-propos/
 order: 5
 menu: true
+body-id: about
 ---
 
 ## Orientation intellectuelle
@@ -17,7 +18,8 @@ Post-Scriptum.ORG est une revue littéraire numérique qui publie, sur une base 
 ---
 
 ## Coordonnées
-[redaction@post-scriptum.org](mailto:redaction@post-scriptum.org) [comptesrendus@post-scriptum.org](mailto:comptesrendus@post-scriptum.org)
+[redaction@post-scriptum.org](mailto:redaction@post-scriptum.org)  
+[comptesrendus@post-scriptum.org](mailto:comptesrendus@post-scriptum.org)
 
 ---
 
