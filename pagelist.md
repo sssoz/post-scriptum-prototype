@@ -1,14 +1,18 @@
-# Single page
-Accueil
-Actualités
-Liste des parutions
-Liste des entretiens
-Liste des compte rendus
+# Pages uniques
+Accueil `home`
+Liste des actualités `all-news`
+Liste des parutions `all-issues`
+Liste des entretiens `all-interviews`
+Liste des compte rendus `all-reports`
+À propos (statique) `about`
 
-# Multiple pages
-Articles
-Nouvelles
-Parutions
+# Pages multiples (« gabarits »)
+Nouvelles `news-item`
+  Possiblement même gabarit qu'`article` mais avec une photo (donc `interview`)
+Parutions `issue`
+Articles `article`
+Articles de type compte rendu `interview`
+  Possiblement même gabarit qu'`article` mais avec une photo
 
 # Structure
 Accueil
@@ -19,7 +23,7 @@ Accueil
       |                                      
       |-- Liste des parutions
       |                     |
-      |                     `-- Une parution
+      |                     `-- [Une parution]
       |                                    |-- Une parution régulière (avec présentation)
       |                                    |                        |
       |                                    |                        `-- Un article
@@ -51,6 +55,7 @@ Parution
   Titre
   Numéro
   Date (mois et année)
+  Saison
   Introduction / présentation
   Auteur de la présentation
   Crédit de photographie
@@ -63,6 +68,7 @@ Article
     Déterminer le nombre de niveaux (max 3?)
   Auteur
   Affiliation
+  Date
   Contenu de l'article
     Résumé
     Titres
@@ -79,5 +85,6 @@ Article
 Nouvelle
   Titre
   Sous-titre
+  Date de la nouvelle
   Contenu de la nouvelle
   Fichiers attachés
