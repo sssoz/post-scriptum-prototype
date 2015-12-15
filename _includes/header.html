@@ -1,9 +1,9 @@
 <header id="header" class="page-header container-fluid">
   <div class="row">
-    <div class="col-md-2">
-      <a href="{{ site.baseurl }}/" class="logo">Post-Scriptum</a>
+    <div class="col-md-4">
+      <a href="{{ site.baseurl }}/" class="logo"><span class="logo-bg"></span></a>
     </div>
-    <nav class="col-md-10 text-right">
+    <nav class="col-md-8 text-right">
       <div class="menu hidden-sm hidden-xs">
         {% assign pages = site.pages | sort:"order"  %}
         {% for page in pages %}

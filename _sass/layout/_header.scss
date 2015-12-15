@@ -11,6 +11,16 @@ header.page-header {
   line-height: $header-height;
   .logo {
     font-size: 1em;
+    display: block;
+  }
+  .logo-bg {
+    display: block;
+    height: $header-height;
+    line-height: $header-height;
+    background-image: url('../img/logo.png');
+    background-repeat: no-repeat;
+    background-size: auto 50%;
+    background-position: left center;
   }
   nav {
     font-family: $sans;
@@ -32,6 +42,9 @@ header.page-header {
   header.page-header {
     a {
       color: #FFF;
+    }
+    .logo-bg {
+      background-image: url('../img/logo-white.png');
     }
   }
 }

@@ -1,3 +1,4 @@
+/* issue-level table of content */
 .toc {
   .toc-item {
     margin: 1em 0;
@@ -29,20 +30,30 @@
     }
   }
 }
+
+/* article-level table of content */
 #article-toc {
-  max-width: 100%;
+  width: 100%;
   height: 100%;
   padding: 1em 0;
   font-size: 0.85em;
-  left: 0;
-  bottom: 0;
   top: $header-height;
   z-index: 1;
+  font-family: $sans;
+  font-size: 0.65em;
   ul, ol {
     list-style: none;
     padding: 0;
+    position: fixed;
+    bottom: 10px;
     li {
       line-height: 1.15;
+      a {
+        color: $dark-grey;
+      }
+      &:first-child {
+        font-family: $sans-bold;
+      }
     }
   }
 }
