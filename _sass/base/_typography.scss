@@ -107,6 +107,19 @@ hr {
 
 .meta {
   font-family: $sans;
+  em {
+    font-family: $sans-italic;
+    b, strong {
+      font-family: $sans-bold-italic;
+    }
+  }
+
+  b, strong {
+    font-family: $sans-bold;
+    em {
+      font-family: $sans-bold-italic;
+    }
+  }
 }
 
 .meta-number {

@@ -41,17 +41,18 @@
   'base/base',
   'base/fonts',
   'base/typography',
-  'base/helpers';
+  'base/helpers',
+  'base/icons';
 
 // 4. Layout-related sections
 @import
   'layout/header',
-  'layout/footer';
+  'layout/footer',
+  'layout/main';
 
 // 5. Components
 @import
   'components/articles',
-  'components/buttons',
   'components/cards',
   'components/covers',
   'components/toc';

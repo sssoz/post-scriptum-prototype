@@ -39,7 +39,14 @@
       font-size: 3vh;
     }
   }
-  .tagline {
+  .nav-down {
+    margin-top: 3em;
+    a {
+      color: #FFF;
+      font-size: 2.5em;
+    }
+  }
+  #tagline {
     background: $faint-grey;
     height: 5vh;
     line-height: 5vh;

@@ -4,18 +4,21 @@ layout: default
 <section class="row">
   <article>
     <header class="container-fluid">
-      <h1 class="article-title">{{ page.title }}</h1>
+      <h1 class="page-title">{{ page.title }}</h1>
       {% if page.subtitle %}<h2 class="meta article-subtitle">{{ page.subtitle }}</h2>{% endif %}
       <div class="meta">{{ page.author }}</div>
     </header>
     <hr/>
-    <aside class="col-md-3">
+    <aside id="article-toc-container" class="col-md-3">
       <!-- <img src="{{ site.baseurl }}/img/cov-{{ page.issue }}.jpg" class="img-responsive"/>
       <a href="{{ }}">Retour à la parution</a> -->
-      <nav id="article-toc">
+      <nav id="article-toc" class="col-md-3">
       </nav>
     </aside>
     <div id="article-content" class="col-md-6">
+      <div class="text-center">
+        <p class="meta"><small><em>Cet article est apparu dans notre parution n°{{ page.issue }}.</em></small></p>
+      </div>
       {{ content }}
     </div>
   </article>
