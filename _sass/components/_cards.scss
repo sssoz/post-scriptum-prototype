@@ -2,7 +2,7 @@
   .card {
     font-size: 0.85em;
     .img-container {
-      height: 325px;
+      height: 250px;
       position: relative;
       overflow: hidden;
       img {
@@ -12,23 +12,37 @@
         left: 0;
       }
     }
-  }
-  .card-issues {
-    height: 550px;
-    .img-container {
-      height: 250px;
-      img {
-        position: absolute;
-        display: block;
-        top: 0;
-        left: 0;
+    &.card-issues {
+      height: 550px;
+      .img-container {
+        height: 175px;
       }
     }
-  }
-  .card-report {
-    height: 400px;
-  }
-  .card-interview {
-    height: 300px;
+    &.card-report {
+      height: 350px;
+      padding: 0 0.75em;
+      margin: 1em 0;
+      border-bottom: 1px solid $light-grey;
+      h3 {
+        margin-top: 0.5em;
+      }
+      .meta {
+        line-height: 1.15;
+      }
+      .meta-author {
+        font-family: $sans-bold;
+      }
+    }
+    &.card-interview {
+      height: 300px;
+      h3 {
+        margin: 0;
+        margin-top: 0.75em;
+        font-size: 1.25em;
+      }
+      .meta {
+        color: $mid-grey;
+      }
+    }
   }
 }

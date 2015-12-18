@@ -13,15 +13,20 @@ body-id: home
             <div class="meta">Parution <span class="meta-number">n° {{ issue.number }}</span></div>
             <h1><a href="{{ issue.url | prepend: site.baseurl }}">{{ issue.title }}</a></h1>
             <div class="meta meta-date">{{ issue.date | date: "%B %Y" }}</div>
+            <div class="nav-down">
+              <a href="#tagline">
+                <span class="icon-arrow-down"></span>
+              </a>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="tagline">{{ site.description }}</div>
+    <div id="tagline">{{ site.description }}</div>
   </section>
   {% endfor %}
   <!-- Actualités récentes -->
-  <section class="container">
+  <section id="recent-news" class="container">
     <h2><a href="{{ '/actualites' | prepend: site.baseurl }}" class="menu-option">Actualités</a></h2>
     <div class="row cards">
       {% for news in site.categories.actualites limit:3 %}
@@ -35,10 +40,13 @@ body-id: home
         <h3><a href="{{ news.url | prepend: site.baseurl }}">{{ news.title }}</a></h3>
       </article>
       {% endfor %}
+      <div class="col-xs-12 meta text-right">
+        <small><em><a href="{{ '/actualites' | prepend: site.baseurl }}">Voir toutes les actualités <span class="icon-arrow-right"></span></a></em></small>
+      </div>
     </div>
     <hr/>
   </section>
-  <section class="container">
+  <section id="recent-issues" class="container">
     <h2><a href="{{ '/parutions' | prepend: site.baseurl }}" class="menu-option">Parutions</a></h2>
     <!-- Avant-dernière parution -->
     <div class="row">
@@ -75,6 +83,9 @@ body-id: home
         <div class="meta meta-date">{{ issue.date | date: "%B %Y" }}</div>
       </article>
       {% endfor %}
+      <div class="col-xs-12 meta text-right">
+        <small><em><a href="{{ '/parutions' | prepend: site.baseurl }}">Voir toutes les parutions <span class="icon-arrow-right"></span></a></em></small>
+      </div>
     </div>
   </section>
 </main>

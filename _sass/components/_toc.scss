@@ -32,15 +32,17 @@
 }
 
 /* article-level table of content */
-#article-toc {
-  width: 100%;
+#article-toc-container {
   height: 100%;
-  padding: 1em 0;
   font-size: 0.85em;
   top: $header-height;
   z-index: 1;
   font-family: $sans;
   font-size: 0.65em;
+  #article-toc {
+    max-width: 100%;
+    padding: 1em;
+  }
   ul, ol {
     list-style: none;
     padding: 0;
